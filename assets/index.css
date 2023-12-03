@@ -1,0 +1,270 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    <!--font-family: 'Roboto', sans-serif;-->
+    text-decoration: none;
+}
+
+ body {
+    min-height: 100vh;
+    background-color: black;
+ }
+
+ nav {
+    
+    background-color: black;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 20px;
+ }
+
+ nav ul {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+ }
+
+ nav li {
+    height: 50px;
+ }
+
+ nav a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    color: white;
+    align-items: center;
+    font-size: 14px;
+ }
+
+ nav a:hover {
+    color: deeppink;
+ }
+
+ nav li:first-child {
+    margin-right: auto;
+ }
+
+ .sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.541);
+    backdrop-filter: blur(15px);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+ }
+
+ .sidebar li {
+    width: 100%;
+ }
+
+ .sidebar a {
+    width: 100%;
+ }
+
+ .sidebar a:hover {
+   color: deeppink;
+ }
+
+
+ .menu-button {
+   display: none;
+ }
+
+ svg {
+  fill: white;
+ }
+
+ .container {
+   /* border: 0.3px solid rgba(255, 255, 255, 0.466); */
+   padding-bottom: 15px;
+   background-color: black;
+   
+   
+ }
+
+ .herotext {
+   text-align: center;
+   border-bottom: 0.3px solid rgba(255, 255, 255, 0.466);
+   padding-bottom: 70px;
+   padding-top: 150px;
+   margin-left: 60px;
+   margin-right: 60px;
+   
+   
+ }
+
+ h1 {
+   font-size: 70px;
+   font-weight: bold;
+   line-height: 1.2;
+   color: pink;
+ }
+
+ span {
+   color: deeppink;
+ }
+
+ p {
+   margin-top: 40px;
+   font-size: 24px;
+   font-weight: 200;
+   color: white;
+   padding-left: 30px;
+   padding-right: 30px;
+   
+ }
+
+ .social {
+   margin-top: 40px;
+   margin-bottom: 40px;
+ }
+
+ .social a {
+   width: 37px;
+   height: 37px;
+   border-radius: 50%;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 17px;
+   cursor: pointer;
+   color: #eee;
+   background-color: rgba(255, 255, 255, 0.1);
+   margin-right: 15px;
+ }
+
+ .social a:hover {
+   transform: scale(1.1);
+   background-color: deeppink;
+   transition: .4s;
+ }
+
+ .resume {
+   color: deeppink;
+   border-radius: 15px;
+   font-size: 14px;
+   border: 1px solid deeppink;
+   padding: 5px 10px;
+   text-decoration: none;
+ }
+
+ .skills {
+   border: 1px solid black;  
+   padding-top: 30px;
+   margin-left: 80px;
+   margin-right: 80px;
+ }
+
+ h3 {
+   color: #fefefef3;
+   padding-left: 30px;
+   margin-top: 60px;
+ }
+
+ .work {
+   display: flex;
+   margin-top: 50px;
+   justify-content: center;
+   align-items: center;
+   padding-left: 80px;
+   padding-right: 80px;
+ }
+
+ h4 {
+  color: white;
+  margin-bottom: 40px;
+ }
+
+ .project {
+  
+ }
+
+ .finance {
+  
+  border-radius: 30px;
+  height: 500px;
+  margin-bottom: 80px;
+  background-color: rgba(68, 65, 65, 0.404)
+ }
+
+ 
+ 
+ h5 {
+  padding-left: 30px;
+  padding-top: 30px;
+  color: white;
+ }
+
+ .telemed {
+  font-size: 14px;
+  margin-top: 10px;
+ }
+
+ figure {
+  padding-left: 30px;
+  object-fit: contain;
+  overflow: hidden;
+  height: 350px;
+  margin-top: 20px;
+  margin-right: 30px;
+  
+ }
+
+ .image {
+  width: 1160px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+ }
+
+ .finance:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 10px 18px rgba(255, 20, 145, 0.37);
+  transition: .4s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media(max-width: 800px) {
+   .hide {
+      display: none;
+   }
+
+   .menu-button {
+      display: block;
+   }
+ }
+
+ 
+
+ @media(max-width: 400px) {
+   .sidebar {
+      width: 100%;
+   }
+ }
+
+ 

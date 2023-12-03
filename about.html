@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/about.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    
+</head>
+<body>
+  <nav>
+    <ul class="sidebar">
+      <li onclick=hideSideBar()><a href="home"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+      <li><a href="./">Home</a></li>
+      <li><a href="/about/">About</a></li>
+      <li><a href="resume">Resume</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="home">Chi.</a></li>
+    <li class="hide"><a href="./">Home</a></li>
+    <li class="hide"><a href="/about.html">About</a></li>
+    <li class="hide"><a href="https://docs.google.com/document/d/19cljK0F2gG5TONKMvpjb7KPqTeqytJoyOcDi6XdjdPM/edit?usp=drive_link">Resume</a></li>
+    <li class="menu-button" onclick=showSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+</ul>
+  </nav>
+
+
+  
+
+  <div class="container">
+    <h1>About Me</h1>
+    
+    <p>My name is Orabuchi Chiamaka and I'm a product designer based in Nigeria. </p>
+    
+    <section id="photoArray">
+      <div class="first">
+        <img src="assets/IMG-2191.jpg">
+      </div>
+      <div class="second">
+        <img src="assets/IMG-2211.jpg">
+      </div>
+      <div class="third">
+        <img src="assets/IMG-2212.jpg">
+      </div>
+    </section>
+
+    
+    <p>To me, design transcends mere pixels and colors—it involves crafting compelling narratives and solving real-world problems. And with my background in pharmacy, I am naturally able to empathize with our users and put them first. I thrive on collaboration, 
+      working closely with clients to bring their visions to life.</p>
+      <p>Outside of the design realm, I love spending time with friends and trying out new restaurants. On other days you'll catch me creating skincare and beauty content, playing COD or learning a new language.<br> I also built this portfolio website with HTML, CSS and JS i recently learnt.</p>
+      
+
+    
+
+    
+  </div>
+
+     
+
+     
+
+  
+
+   
+      
+
+
+      <script>
+        function showSideBar() {
+          const sidebar = document.querySelector('.sidebar')
+          sidebar.style.display = 'flex'
+        }
+        function hideSideBar(){
+          const sidebar = document.querySelector('.sidebar')
+          sidebar.style.display = 'none'
+        }
+      </script>
+</body>
+</html>
