@@ -188,9 +188,7 @@
   margin-bottom: 40px;
  }
 
- .project {
-  
- }
+
 
  .finance {
   
@@ -215,7 +213,7 @@
 
  figure {
   padding-left: 30px;
-  object-fit: contain;
+  object-fit: cover;
   overflow: hidden;
   height: 350px;
   margin-top: 20px;
@@ -265,6 +263,45 @@
    .sidebar {
       width: 100%;
    }
+
  }
 
+ @media(min-width: 375px) and (max-width: 412px) {
+  .sidebar {
+     width: 100%;
+  }
+
+  h1 {
+   font-size: 32px;
+  }
+
+  p {
+   font-size: 14px;
+   line-height: 30px;
+  }
+
+  .herotext {
+   margin: 0 32px;
+   padding-bottom: 40px;
+  padding-top: 100px;
+  }
+
+  nav {
+   margin-left: 32px;
+   margin-right: 32px;
+   margin-top: 20px;
+}
+
+.skills { 
+ margin-left: 32px;
+ margin-right: 32px;
+}
+
+figure {
  
+ object-fit: cover;
+ overflow: hidden;
+ height: 250px; 
+}
+
+}
