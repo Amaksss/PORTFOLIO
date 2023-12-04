@@ -287,11 +287,11 @@
   }
 
   h1 {
-   font-size: 32px;
+   font-size: 38px;
   }
 
   p {
-   font-size: 12px;
+   font-size: 16px;
    line-height: 30px;
    padding-left: 15px;
    padding-right: 15px;
@@ -299,7 +299,9 @@
   }
 
   .herotext {
-   margin: 0 32px;
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-top: 20px;
    padding-bottom: 40px;
   padding-top: 100px;
   }
@@ -311,8 +313,8 @@
 }
 
 .skills { 
- margin-left: 32px;
- margin-right: 32px;
+ margin-left: 20px;
+ margin-right: 20px;
 }
 
 figure {
@@ -327,11 +329,12 @@ figure {
 }
 
 h4 {
-  font-size: 20px;
+  font-size: 24px;
 }
 
 h5 {
   padding-left: 30px;
+  font-size: 16px;
 }
 
 .telemed {
@@ -347,6 +350,11 @@ h5 {
   height: 400px;
   margin-bottom: 80px;
   background-color: rgba(68, 65, 65, 0.404)
+ }
+
+ .social {
+  margin-top: 60px;
+  margin-bottom: 60px;
  }
 
 }
