@@ -110,7 +110,7 @@
    grid-gap: 20px;
    grid-template-areas: 
    "photoOne photoTwo"
-   "photoOne photoThree";
+   "photoThree photoFour";
    grid-template-columns: 1fr 1fr;
    margin-top: 50px;
 }
@@ -132,14 +132,14 @@ div > img {
 .first img {
    width: 100%;
    object-fit: cover;
-   height: 600px;
+   height: 300px;
    border-radius: 20px;
 }
 
 .second img {
    width: 100%;
    object-fit: cover;
-   height: 250px;
+   height: 300px;
    border-radius: 20px;
 }
 
@@ -150,10 +150,17 @@ div > img {
    border-radius: 20px;
 }
 
-
-#photoArray > div:first-child {
-grid-area: photoOne;
+.fourth img {
+   width: 100%;
+   object-fit: cover;
+   height: 300px;
+   border-radius: 20px;
 }
+
+
+/* #photoArray > div:first-child {
+grid-area: photoOne;
+} */
 
 
 p{ 
@@ -189,3 +196,27 @@ p{
        width: 100%;
     }
   }
+
+
+  @media(min-width: 200px) and (max-width: 430px) {
+   .sidebar {
+      width: 100%;
+   }
+
+   
+   nav {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+ }
+
+ h1 {
+   font-size: 30px;
+ }
+
+ p {
+   font-size: 14px;
+   margin-top: 40px;
+ }
+ 
+ }
