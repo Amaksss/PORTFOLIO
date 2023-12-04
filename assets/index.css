@@ -58,8 +58,8 @@
     height: 100vh;
     width: 250px;
     z-index: 999;
-    background-color: rgba(0, 0, 0, 0.541);
-    backdrop-filter: blur(15px);
+    background-color: rgba(0, 0, 0, 1);
+    /* backdrop-filter: blur(15px); */
     display: none;
     flex-direction: column;
     align-items: flex-start;
@@ -191,7 +191,7 @@
 
 
  .finance {
-  
+  cursor: pointer;
   border-radius: 30px;
   height: 500px;
   margin-bottom: 80px;
