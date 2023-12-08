@@ -198,6 +198,10 @@
   background-color: rgba(68, 65, 65, 0.404)
  }
 
+ .divlink {
+  text-decoration: none;
+ }
+
  
  
  h5 {
@@ -356,5 +360,11 @@ h5 {
   margin-top: 60px;
   margin-bottom: 60px;
  }
+
+ .finance:hover {
+  transform: none;
+  box-shadow: none;
+  transition: none;
+}
 
 }

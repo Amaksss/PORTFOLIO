@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/farm.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,500;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+  <nav>
+    <ul class="sidebar">
+      <li onclick=hideSideBar()><a href="index.html"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+      <li><a href="./">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="https://docs.google.com/document/d/19cljK0F2gG5TONKMvpjb7KPqTeqytJoyOcDi6XdjdPM/edit?usp=drive_link">Resume</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="home">Chi.</a></li>
+    <li class="hide"><a href="./">Home</a></li>
+    <li class="hide"><a href="/about.html">About</a></li>
+    <li class="hide"><a href="https://docs.google.com/document/d/19cljK0F2gG5TONKMvpjb7KPqTeqytJoyOcDi6XdjdPM/edit?usp=drive_link">Resume</a></li>
+    <li class="menu-button" onclick=showSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+</ul>
+  </nav>
+
+  <div class="container">
+    <header>
+      <h1>SmartFarm</h1>
+      <div class="subtitle">
+        <p>AI/ML</p>
+        <p>Agritech</p>
+        <p>Hackathon</p>
+      </div>
+    </header>
+
+    <figure>
+      <img class="first" src="assets/Frame 1554.png" alt="image of project">
+    </figure>
+
+    <div class="Background">
+      <h2>Background</h2>
+      <p>Farmers struggle with traditional methods of assessing readiness for harvest, often resulting in suboptimal yields, increased resource use, and financial losses. The lack of a precise and data-driven solution has made it challenging for them to synchronize harvesting activities with peak crop maturity, leading to inefficiencies in the entire agricultural process.</p>
+    </div>
+
+    <div class="Background">
+      <h2>Product Overview</h2>
+      <p>SmartFarm is an ingenious agricultural tool designed to empower farmers with accurate and data-driven insights, revolutionizing the way crops are harvested. This innovative solution integrates real-time weather data, soil quality metrics, and advanced machine learning models to predict the optimal time for harvesting crops. By providing farmers with precise recommendations, the solution aims to maximize yields, minimize resource use, and streamline the entire harvesting process.</p>
+    </div>
+
+    <div class="Background">
+      <h2>Understanding The Problem</h2>
+      <h3>Secondary Research & Competitive Analysis</h3>
+      <p>Online research was done to understand how this is a real life issue, how people are being affected by it and what they are currently doing to solve it. It also provided a foundation of knowledge for the primary research. In order to construct a solid foundation for SmartFarm, we had to see what our competitors were already doing while looking out for market gaps.</p>
+    </div>
+
+    <div class="Background">
+      <h2>User Story</h2>
+      <div class="userstory">
+      <h3>Scenario - Onboarding and Integration</h3>
+      <p>As a user, I want to easily onboard the SmartFarm Webapp to ensure a seamless integration with how I currently manage my crops.</p>
+      
+      <h3>Acceptance Criteria</h3>
+      <ul>
+        <li class="list">The onboarding process should be intuitive, allowing the user to input the farm details, crop type and any existing data sources.
+        </li>
+      </ul>
+      </div>
+
+      <div class="userstory">
+        <h3>Scenario - Real-time Monitoring and Predictions</h3>
+        <p>As a user, I want monitoring of weather conditions and predictions for optimal harvesting times..</p>
+        
+        <h3>Acceptance Criteria</h3>
+        <ul>
+          <li class="list">The system should display live weather forecasts tailored to the user's location. The system should also provide predictions on optimal harvesting seasons.
+          </li>
+        </ul>
+        </div>
+    </div>
+
+    <div class="Background">
+      <h2>UserFlow</h2>
+      <p>This maps out the steps each user would follow to complete a specific task when using the proposed solution. It gives an overview of users steps from entry point to final interaction.</p>
+    </div>
+
+
+    <div class="flowimage">
+    <figure>
+      <img class="flow" src="assets/Frame 13.png" alt="image of project">
+    </figure>
+    </div>
+
+
+    <div class="Background">
+      <h2>Visual Design</h2>
+      <div>
+      <p>Landing Page and Authentication</p>
+      <figure>
+        <img class="landing" src="assets/Frame 155.png" alt="landing page and Authentication" width="1000px">
+      </figure>
+    </div>
+
+    <div class="secondvisual">
+      <p>Harvest prediction and feedback Integration</p>
+      <figure>
+        <img class="prediction" src="assets/Frame 155.png" alt="landing page and Authentication" width="1000px">
+      </figure>
+    </div>
+    </div>
+
+    <div class="Background">
+      <h2>Key Takeaways and Nextsteps</h2>
+      <h3>Learnings</h3>
+      <ul class="takeaway">
+        <li>User Research plays a significant role while making design decisions</li>
+        <li>Understanding the problem and defining it well is key to arriving to a solution.</li>
+      </ul>
+
+      <h3>Nextsteps</h3>
+      <p>We are proud of the progress made so far although much is still needed to be done. Designing, developing and improving a documentation site is one of those tasks that never ends as we'd keep iterating with feedback gifted to us by the users.</p>
+    </div>
+
+
+  </div>
+
+
+
+  <script>
+    function showSideBar() {
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+    function hideSideBar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    }
+  </script>
+</body>
+</html>
