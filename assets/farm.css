@@ -146,7 +146,7 @@
  .Background p {
     font-size: 20px;
     margin-top: 20px;
-    font-weight: 300;
+    font-weight: 400;
  }
  .Background h3 {
     margin-top: 20px;
@@ -168,6 +168,10 @@
  .userstory h3 {
     font-size: 20px;
  }
+
+ .userstory p {
+   font-weight: 400;;
+}
 
 
 
@@ -255,7 +259,7 @@
     .two p {
       font-size: 16px;
       color: rgba(255, 255, 255, 0.466);
-      font-weight: 300;
+      font-weight: 400;
       margin-top: 30px;
     }
 
@@ -298,6 +302,8 @@
    .secondvisual {
       margin-top: 50px;
    }
+
+   
 
 
 
@@ -365,7 +371,7 @@
      .Background p {
         font-size: 16px;
         margin-top: 20px;
-        font-weight: 300;
+        font-weight: 400;
      }
 
      .takeaway {
@@ -417,7 +423,7 @@
       margin-top: 10px;
       font-size: 14px;
       color: rgba(255, 255, 255, 0.466);
-      font-weight: 300;
+      font-weight: 400;
       text-align: center;
       padding: 0;
       
@@ -456,6 +462,11 @@
       cursor: pointer;
       transition: .5s;
     }
+
+    .userstory p {
+      font-weight: 400;;
+   }
+   
 
 
    }
