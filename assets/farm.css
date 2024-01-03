@@ -124,9 +124,17 @@
     margin-top: 40px;
  }
 
- .first {
+ /*.first {
     width: 1000px;
- }
+ }*/
+
+ .first {
+   display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 70%;
+}
+
 
  .Background {
     margin-top: 70px;
@@ -250,6 +258,46 @@
       font-weight: 300;
       margin-top: 30px;
     }
+
+    .prev {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 20px;
+     }
+   
+     .next {
+      color: white;
+     }
+
+     .previ {
+      color: white;
+     }
+
+     .flowimage {
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    object-fit: cover;
+   }
+
+   .prediction {
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+   }
+
+   .landing {
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+   }
+
+   .secondvisual {
+      margin-top: 50px;
+   }
 
 
 

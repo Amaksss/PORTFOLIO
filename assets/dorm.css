@@ -113,8 +113,8 @@ body {
 
  .subtitle p {
     /* border: 1px solid white;*/
-    background-color: #649a3a62;
-    color: #18d334;
+    background-color: #2841a54f;
+        color: #4e6be0;
     font-size: 14px;
     padding: 4px 16px;
     border-radius: 14px;
@@ -161,6 +161,13 @@ body {
   margin-right: auto;
   width: 70%;
  }
+
+ .proc {
+   display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 40%;
+}
 
  .bottom {
     font-size: 24px;
@@ -256,6 +263,17 @@ body {
   }
 
 
+  .prev {
+   display: flex;
+   justify-content: space-between;
+   padding-top: 20px;
+  }
+
+  .next {
+   color: white;
+  }
+
+
   @media(max-width: 800px) {
     .hide {
        display: none;
@@ -289,8 +307,8 @@ body {
 
      .subtitle p {
         /* border: 1px solid white;*/
-        background-color: #649a3a62;
-        color: #18d334;
+        background-color: #2841a54f;
+        color: #4e6be0;
         font-size: 10px;
         padding: 4px 16px;
         border-radius: 14px;
